@@ -1,5 +1,3 @@
-**TL;DR**
-
 #Short brief 
 Currently, I have a complex project that have 5 storyboards, with 20 controllers. In my case, using storyboard segue seems not a good idea. Therefore, creating controller's instance from storyboard and make a transition by code is much better. 
 
@@ -13,7 +11,8 @@ There are steps to prevent this problem.
    3. Create `BaseViewController.swift` to define the initialization from storyboard
    4. Create function to init all storyboards & controllers, to prevent crashing in runtime.
 
-#Detail
+#Detail (TL;DR)
+
 *Step 1:*
 
 [![enter image description here][1]][1]
